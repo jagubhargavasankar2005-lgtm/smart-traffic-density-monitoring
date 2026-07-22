@@ -11,7 +11,7 @@ An AI-powered traffic monitoring system that uses **YOLOv8** and **OpenCV** to d
 - 🔢 Automatic vehicle counting
 - 📊 Dynamic traffic density estimation
 - 🚦 Adaptive traffic signal timing
-- ⚡ Computer vision-based intelligent traffic management
+- ⚡ Intelligent traffic management using computer vision
 
 ---
 
@@ -44,16 +44,16 @@ Clone the repository:
 git clone https://github.com/jagubhargavasankar2005-lgtm/smart-traffic-density-monitoring.git
 ```
 
-Move into the project directory:
+Navigate to the project directory:
 
 ```bash
 cd smart-traffic-density-monitoring
 ```
 
-Install the required packages:
+Install the required dependencies:
 
 ```bash
-pip install ultralytics opencv-python numpy
+pip install ultralytics opencv-python numpy streamlit
 ```
 
 ---
@@ -61,26 +61,26 @@ pip install ultralytics opencv-python numpy
 ## ▶️ Run the Project
 
 ```bash
-python original.py
+streamlit run original.py
 ```
 
 ---
 
 ## 🚦 Project Workflow
 
-1. Read traffic video input.
+1. Load traffic video input.
 2. Detect vehicles using YOLOv8.
 3. Count vehicles in each frame.
 4. Estimate traffic density.
-5. Dynamically adjust signal timing.
-6. Display processed traffic information.
+5. Adjust traffic signal timing dynamically.
+6. Display traffic statistics in real time.
 
 ---
 
 ## 📈 Advantages
 
 - Reduces traffic congestion
-- Minimizes waiting time
+- Minimizes vehicle waiting time
 - Improves road efficiency
 - Supports smart city applications
 - Automated traffic monitoring
@@ -89,38 +89,25 @@ python original.py
 
 ## ⚠️ Limitations
 
-- Detection accuracy depends on camera quality.
-- Weather conditions may affect performance.
-- Requires sufficient computing resources for real-time processing.
+- Performance depends on camera quality.
+- Weather conditions can affect detection accuracy.
+- Real-time processing benefits from GPU acceleration.
 
 ---
 
 ## 🚀 Future Enhancements
 
-- Emergency vehicle priority
+- Emergency vehicle priority detection
 - Accident detection
 - Multi-intersection traffic management
 - AI-based traffic prediction
-- Smart City and IoT integration
-
----
-
-## 📸 Demo
-
-Add screenshots or sample output images here.
-
-Example:
-
-```text
-images/output1.png
-images/output2.png
-```
+- Integration with Smart City and IoT infrastructure
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
 ---
 
@@ -133,4 +120,4 @@ This project is licensed under the MIT License.
 
 ---
 
-⭐ If you found this project useful, consider giving it a star.
+⭐ If you found this project useful, consider giving it a star on GitHub.
